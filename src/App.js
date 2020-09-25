@@ -1,17 +1,14 @@
 import React from 'react';
 import './App.css';
-import CarImage from './components/CarImage';
-import CarInfo from './components/CarInfo';
-import urus from "./images/urus.jpg";
-import aventador from "./images/aventador.jpg";
+import Product from "./components/Product";
+import banana from "./images/banana.jpg";
+
 
 function App() {
   return (
     <div className="app">
-      <CarImage image={urus} />
-      <CarInfo name="lamborghini" modelName="Urus"/>
-      <CarImage image={aventador} />
-      <CarInfo name="lamborghini" modelName="Aventador"/>
+      <img className="app__img" src={banana} alt=""/>
+      <Product price="1$" name="Banana" description="Fresh bananas from Ecuador"/>
     </div>
 
   );

@@ -7,7 +7,12 @@
 
 .app {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.app__img {
+  width: 150px;
+  margin-right: 50px;
 }
 
 
